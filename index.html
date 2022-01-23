@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+ 
+    <title>Rupscake</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com"> 
+    <link href="https://fonts.googleapis.com/css2?family=Flamenco&display=swap" rel="stylesheet">
+    <link rel="stylesheet"href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <link rel= "stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+</head>
+<body>
+
+ <header>
+    <nav>
+       <div class"row clearfix">
+           <img src= "images/logo.jpg" class="logo">
+
+          <ul class="main-nav animated slideINDown" id="check-class">
+
+               <li><a href ="#">Cake Delivery</a></li>
+               <li><a href ="#">How To Order</a></li>
+               <li><a href ="#">Check More</a></li>
+               <li><a href ="#">Sign Up</a></li>
+          </ul>
+           <a href"#" class="mobile-icon" oneclick="slideshow()"><i class="fa fa-bars"></i></a>   
+      </div>    
+    </nav>
+
+     <div class="main-content-header">
+              <h1>Welcome to <span class="colorchange">Rup"s cake"s.</span>.<br>
+              Great Test In Every Bite...</h1>
+              <a href="#" class="btn btn-full">Order Now</a>
+              <a href="#" class="btn btn-nav">Show More</a> 
+   
+     </div>
+ </header>
+ 
+ <script type="text/javascript">
+
+      function slideshow(){
+           var x = document.getElementById('check-class');
+           if(x.style.display === "none"){       
+              x.style.display="block";
+           }else{
+              x.style.display="none";   
+
+           }
+            
+      }
+           
+              
+ </script>
+
+</body>
+</html>
+
+
+
+
+
